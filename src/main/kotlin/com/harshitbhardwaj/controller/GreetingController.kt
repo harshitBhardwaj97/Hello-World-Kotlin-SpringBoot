@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController
 class GreetingController {
 
     @GetMapping("/hello-world")
-    fun Greet() = "hello-world-from-kotlin-springboot"
+    fun greet() = "hello-world-from-kotlin-springboot"
 
     @GetMapping("/")
-    fun RootEndpoint() = "hit /hello-world endpoint"
+    fun rootEndpoint() = "hit /hello-world endpoint"
 }
